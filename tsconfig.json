@@ -16,7 +16,8 @@
         "noEmit": true,
         "noImplicitReturns": true,
         "forceConsistentCasingInFileNames": true,
-        "types": ["vite/client", "node"]
+        "types": ["vite/client", "node"],
+        "allowSyntheticDefaultImports": true
     },
     "include": ["src"],
     "exclude": ["**/*.test.ts", "node_modules", "test/**", ".history/**"]
